@@ -17,7 +17,7 @@ export default function about() {
 
         <p>
           <span className="font-semibold">Phone:</span>{" "}
-          +234 8177 338 887
+          +234 7070 101 737
         </p>
 
         <p>
@@ -26,7 +26,7 @@ export default function about() {
             href="mailto:King.abhulimen@gmail.com"
             className="text-orange-500 hover:underline"
           >
-            Kings.abhulimen@gmail.com
+            3abhinvestment@gmail.com
           </a>
         </p>
 
