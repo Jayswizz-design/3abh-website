@@ -117,7 +117,7 @@ export default function PrivacyPolicy() {
             Questions or concerns? Contact us at:
           </p>
           <ul className="list-disc ml-6 text-gray-700">
-            <li>Email: <a href="mailto:Kings.abhulimen@gmail.com" className="text-orange-500 hover:underline">Kings.abhulimen@gmail.com</a></li>
+            <li>Email: <a href="mailto:3abhinvestment@gmail.com" className="text-orange-500 hover:underline">Kings.abhulimen@gmail.com</a></li>
             <li>Address: 3ABH Office, Port Harcourt, Nigeria</li>
           </ul>
           <p className="text-gray-700 mt-2">
