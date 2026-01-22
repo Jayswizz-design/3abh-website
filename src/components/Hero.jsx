@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom"; // <-- Import Link
-import heroImage from "../assets/agro.jpg";
-import heroImage1 from "../assets/business.webp";
+import heroImage from "../assets/agro1.jpg";
+import heroImage1 from "../assets/business.jpg";
 import heroImage2 from "../assets/consumer.jpg";
+import heroImage3 from "../assets/building.jpg";
 
 export default function Hero() {
   return (
@@ -28,6 +29,13 @@ export default function Hero() {
         <div className="flex items-center justify-center">
           <img
             src={heroImage}
+            alt="avatar-ali"
+            className="rounded-full shadow-lg w-32 h-32"
+          />
+        </div>
+        <div className="flex items-center justify-center">
+          <img
+            src={heroImage3}
             alt="avatar-ali"
             className="rounded-full shadow-lg w-32 h-32"
           />
