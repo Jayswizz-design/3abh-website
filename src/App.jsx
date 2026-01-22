@@ -16,6 +16,7 @@ import Pricing from "./pages/pricing";
 import Product from "./pages/product";
 import Careers from "./pages/careers";
 import Community from "./pages/community";
+import PrivacyPolicy from "./pages/privacy"; // <-- NEW
 
 function App() {
   const location = useLocation();
@@ -29,14 +30,17 @@ function App() {
 
       <Routes>
         {/* HOME PAGE */}
-        <Route path="/" element={
-          <>
-            <Hero />
-            <Features />
-            <Testimonial />
-            <CTA />
-          </>
-        } />
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Features />
+              <Testimonial />
+              <CTA />
+            </>
+          }
+        />
 
         {/* ABOUT DROPDOWN PAGES */}
         <Route path="/about" element={<About />} />
@@ -49,6 +53,9 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/community" element={<Community />} />
+
+        {/* PRIVACY POLICY */}
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* <-- NEW */}
 
         {/* GET STARTED / QUOTE PAGE */}
         <Route path="/quote" element={<QuoteText />} />
