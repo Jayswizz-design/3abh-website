@@ -114,31 +114,31 @@ export default function Navbar() {
 
         {/* About Us */}
         <li
-          className="relative"
-          onMouseEnter={() => toggleDropdown("about")}
-          onMouseLeave={() => setDropdowns((p) => ({ ...p, about: false }))}
-        >
-          <button
-            onClick={() => toggleDropdown("about")}
-            className="hover:text-orange-600 transition"
-          >
-            About Us
-          </button>
+  className="relative"
+  onMouseEnter={() => toggleDropdown("about")}
+  onMouseLeave={() => setDropdowns((p) => ({ ...p, about: false }))}
+>
+  <Link
+    to="/company"
+    className="hover:text-orange-600 transition font-semibold"
+  >
+    About Us
+  </Link>
 
-          {dropdowns.about && (
-            <div className="absolute top-full mt-3 w-64 bg-white dark:bg-gray-900 shadow-xl rounded-lg py-2 z-50">
-              <Link to="/company" className="block px-4 py-2 hover:text-orange-600">
-                Company
-              </Link>
-              <Link to="/team" className="block px-4 py-2 hover:text-orange-600">
-                Team
-              </Link>
-              <Link to="/mission" className="block px-4 py-2 hover:text-orange-600">
-                Mission
-              </Link>
-            </div>
-          )}
-        </li>
+  {dropdowns.about && (
+    <div className="absolute top-full mt-3 w-64 bg-white dark:bg-gray-900 shadow-xl rounded-lg py-2 z-50">
+      <Link to="/company" className="block px-4 py-2 hover:text-orange-600">
+        Company
+      </Link>
+      <Link to="/team" className="block px-4 py-2 hover:text-orange-600">
+        Team
+      </Link>
+      <Link to="/mission" className="block px-4 py-2 hover:text-orange-600">
+        Mission
+      </Link>
+    </div>
+  )}
+</li>
 
         {/* Careers */}
         <li className="relative">
