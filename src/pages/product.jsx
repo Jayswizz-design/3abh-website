@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import productImage from "../assets/product.jpg";
+import productImage from "../assets/produc.jpg";
 
 export default function Product() {
   return (
@@ -15,21 +15,23 @@ export default function Product() {
       </Link>
 
       <div className="space-y-6 text-gray-700 text-lg">
-        <p>
-          Our product is designed to simplify complex workflows and improve
-          productivity for businesses of all sizes. It integrates seamlessly
-          with your existing tools and provides actionable insights.
-        </p>
+       <p>
+  We help you take the hassle out of chicken rearing, piggery farming, 
+  and building construction. Our solutions make your projects efficient, 
+  cost-effective, and easier to manage from start to finish.
+</p>
 
-        <p>
-          With real-time analytics, customizable dashboards, and robust security,
-          our solution empowers teams to work smarter and achieve better results.
-        </p>
+<p>
+  With expert guidance, proven techniques, and safety-first practices, 
+  we empower farmers and builders to boost productivity, reduce risks, 
+  and achieve results faster.
+</p>
 
-        <p>
-          Whether you are a small startup or a large enterprise, our product scales
-          to meet your needs.
-        </p>
+<p>
+  Whether you’re running a small farm, a large livestock operation, or a 
+  construction project, our services scale to fit your goals and ensure 
+  success every step of the way. <strong>Get started today and see the difference for yourself!</strong>
+</p>
 
         <img
           src={productImage}

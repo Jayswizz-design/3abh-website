@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
             <li>Lodge complaints with us or the National Information Technology Development Agency (NITDA) in Nigeria.</li>
           </ul>
           <p className="mt-2 text-gray-700">
-            Contact: <a href="mailto:3abhinvestment@gmail.com" className="text-orange-500 hover:underline">Kings.abhulimen@gmail.com</a>
+            Contact: <a href="mailto:3abhinvestment@gmail.com" className="text-orange-500 hover:underline">3abhinvestment@gmail.com</a>
           </p>
         </section>
 
@@ -117,12 +117,9 @@ export default function PrivacyPolicy() {
             Questions or concerns? Contact us at:
           </p>
           <ul className="list-disc ml-6 text-gray-700">
-            <li>Email: <a href="mailto:3abhinvestment@gmail.com" className="text-orange-500 hover:underline">Kings.abhulimen@gmail.com</a></li>
+            <li>Email: <a href="mailto:3abhinvestment@gmail.com" className="text-orange-500 hover:underline">3abhinvestment@gmail.com</a></li>
             <li>Address: 3ABH Office, Port Harcourt, Nigeria</li>
           </ul>
-          <p className="text-gray-700 mt-2">
-            You can also access this Privacy Policy from the footer of our website or directly via <Link to="/privacy-policy" className="text-orange-500 hover:underline">this page</Link>.
-          </p>
         </section>
 
       </div>
